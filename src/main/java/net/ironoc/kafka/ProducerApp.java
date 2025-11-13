@@ -25,13 +25,18 @@ public class ProducerApp {
             System.out.println("Enter messages to send to Kafka (type 'exit' to quit):");
 
             while (true) {
+                String key = scanner.nextLine();
+                if ("exit".equalsIgnoreCase(key)) {
+                    break;
+                }
+
                 String message = scanner.nextLine();
                 if ("exit".equalsIgnoreCase(message)) {
                     break;
                 }
 
                 // Create / send a Producer Record
-                producer.send(new ProducerRecord<>(args[1], message));
+                producer.send(new ProducerRecord<>(args[1], key, message));
 
                 System.out.println("Sent: " + message);
             }
