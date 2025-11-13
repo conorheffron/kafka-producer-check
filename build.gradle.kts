@@ -21,8 +21,8 @@ dependencies {
     implementation("org.apache.kafka:kafka-clients:3.9.1")
 
     // Logging (SLF4J API + Simple Logger)
-    implementation("org.slf4j:slf4j-api:2.0.12")
-    implementation("org.slf4j:slf4j-simple:2.0.12")
+    implementation("org.slf4j:slf4j-api:2.0.17")
+    implementation("org.slf4j:slf4j-simple:2.0.17")
 
     // JUnit for testing
     testImplementation("org.junit.jupiter:junit-jupiter:6.0.1")
