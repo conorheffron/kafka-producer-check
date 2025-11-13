@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "net.ironoc.kafka"
-version = "1.0.0"
+version = "1.0.1"
 
 java {
     toolchain {
@@ -21,11 +21,11 @@ dependencies {
     implementation("org.apache.kafka:kafka-clients:4.1.1")
 
     // Logging (SLF4J API + Simple Logger)
-    implementation("org.slf4j:slf4j-api:2.0.12")
-    implementation("org.slf4j:slf4j-simple:2.0.12")
+    implementation("org.slf4j:slf4j-api:2.0.17")
+    implementation("org.slf4j:slf4j-simple:2.0.17")
 
     // JUnit for testing
-    testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
+    testImplementation("org.junit.jupiter:junit-jupiter:6.0.1")
 }
 
 tasks.withType<JavaCompile> {
