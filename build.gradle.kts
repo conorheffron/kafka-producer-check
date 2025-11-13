@@ -18,7 +18,7 @@ repositories {
 
 dependencies {
     // Apache Kafka client library
-    implementation("org.apache.kafka:kafka-clients:3.7.0")
+    implementation("org.apache.kafka:kafka-clients:4.1.1")
 
     // Logging (SLF4J API + Simple Logger)
     implementation("org.slf4j:slf4j-api:2.0.12")
