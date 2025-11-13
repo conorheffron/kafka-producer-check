@@ -29,7 +29,7 @@ jobs:
         cache-disabled: true
     
     - name: Build with Gradle 8.13
-      run: ./gradlew build
+      run: ./gradlew clean build
 
   dependency-submission:
 
