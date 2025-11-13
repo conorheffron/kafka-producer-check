@@ -25,7 +25,7 @@ dependencies {
     implementation("org.slf4j:slf4j-simple:2.0.12")
 
     // JUnit for testing
-    testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
+    testImplementation("org.junit.jupiter:junit-jupiter:6.0.1")
 }
 
 tasks.withType<JavaCompile> {
