@@ -19,7 +19,7 @@
 
 ## Run Kafka Consumer
 ```shell
-java -jar build/libs/kafka-producer-check-1.0.1.jar localhost:9092 ironoc-test-topic
+java -jar build/libs/kafka-producer-check-1.0.2.jar localhost:9092 ironoc-test-topic
 ```
 
 ## Enter `key` value & then `value` to send as message

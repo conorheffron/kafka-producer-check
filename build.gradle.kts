@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "net.ironoc.kafka"
-version = "1.0.1"
+version = "1.0.2"
 
 java {
     toolchain {
@@ -25,7 +25,7 @@ dependencies {
     implementation("org.slf4j:slf4j-simple:2.0.17")
 
     // JUnit for testing
-    testImplementation("org.junit.jupiter:junit-jupiter:6.0.1")
+    testImplementation("org.junit.jupiter:junit-jupiter:6.0.2")
 }
 
 tasks.withType<JavaCompile> {
