@@ -3,7 +3,7 @@
 [![Java CI with Gradle](https://github.com/conorheffron/kafka-producer-check/actions/workflows/gradle.yml/badge.svg)](https://github.com/conorheffron/kafka-producer-check/actions/workflows/gradle.yml)
 
 ## Tech
-- JDK 17, Apache Kafka 3 (Client Libs), & Kafka Broker
+- JDK 17, Apache Kafka 3 (Client Libs), & Kafka (version 4.0.0) Broker
 
 ## Test Topic Creation & Consumer Subscription from Kafka Broker
 ```shell
