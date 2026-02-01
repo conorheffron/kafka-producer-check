@@ -3,7 +3,7 @@
 [![Java CI with Gradle](https://github.com/conorheffron/kafka-producer-check/actions/workflows/gradle.yml/badge.svg)](https://github.com/conorheffron/kafka-producer-check/actions/workflows/gradle.yml)
 
 ## Tech
-- JDK 17, Apache Kafka 3 (Client Libs), & Kafka (version 4.0.0) Broker
+- JDK 17, Apache Kafka 3 (Client Libs), & Kafka (version 4.0.0) Broker, Gradle 9
 
 ## Test Topic Creation & Consumer Subscription from Kafka Broker
 ```shell
@@ -19,7 +19,7 @@
 
 ## Run Kafka Consumer
 ```shell
-java -jar build/libs/kafka-producer-check-1.0.2.jar localhost:9092 ironoc-test-topic
+java -jar build/libs/kafka-producer-check-1.0.3.jar localhost:9092 ironoc-test-topic
 ```
 
 ## Enter `key` value & then `value` to send as message
