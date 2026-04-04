@@ -1,10 +1,10 @@
 plugins {
     id("java")
-    id("com.gradleup.shadow") version "9.4.0"
+    id("com.gradleup.shadow") version "9.4.1"
 }
 
 group = "net.ironoc.kafka"
-version = "1.0.5"
+version = "1.0.6"
 
 java {
     toolchain {
