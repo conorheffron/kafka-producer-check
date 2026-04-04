@@ -17,7 +17,7 @@
 ./gradlew clean build
 ```
 
-## Run Kafka Consumer
+## Run Kafka Producer
 ```shell
 java -jar build/libs/kafka-producer-check-1.0.6.jar localhost:9092 ironoc-test-topic
 ```
